@@ -1,6 +1,6 @@
 """
-Creator: Ivanovitch Silva
-Date: 18 April 2022
+Creator: Mateus Goldbarg
+Date: may 23 2022
 API testing
 """
 from fastapi.testclient import TestClient
