@@ -19,7 +19,7 @@ def test_root():
 
 # a unit test that tests the status code and response 
 # for an instance with a low income
-def test_get_inference_low_income():
+def test_get_inference_diabetic():
 
     person = {
         "Pregnancies": 0,
@@ -39,7 +39,7 @@ def test_get_inference_low_income():
 
 # a unit test that tests the status code and response 
 # for an instance with a high income
-def test_get_inference_high_income():
+def test_get_inference_healthy():
 
     person = {
         "Pregnancies": 1,
