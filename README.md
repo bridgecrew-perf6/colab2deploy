@@ -1,3 +1,12 @@
+Universidade Federal do Rio Grande do Norte
+Programa de Pós Graduação em Engenharia Elétrica e de Computação
+EEC1509 - APRENDIZAGEM DE MÁQUINA - T01 - 2022.1
+
+Nome: Mateus Arnaud Goldbarg
+
+# Fundamentos de Machine learning e Árvore de Decisão
+
+
 # Project Overview
 
 In this project, we will apply the skills acquired in the [Machine Learning Fundamentals and Decision Trees](https://github.com/ivanovitchm/ppgeecmachinelearning/tree/main/lessons/week_02/sources) lesosn, diven by [Ivanovich Silva](https://github.com/ivanovitchm), to deploy a classification model using [Prima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) database. All steps of EDA, model training, model testing and others is found in [Machine Learning Fundamentals and Decision Trees for diabetes dataset](https://github.com/mateusArnaudGoldbarg/diabetes_decision_tree).
