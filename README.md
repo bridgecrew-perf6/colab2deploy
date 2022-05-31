@@ -34,7 +34,7 @@ The datasets consists of the following features:
 
 This is an unbalanced dataset, where 268 of 768 are 1 (diabetic), and 500 are 0 (healty).
 
-<center><img width="800" src="images/prima.png"></center>
+<center><img width="600" src="images/prima.png"></center>
 
 ## Workflow overview
 
