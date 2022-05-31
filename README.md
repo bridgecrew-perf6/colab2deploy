@@ -1,15 +1,14 @@
-Universidade Federal do Rio Grande do Norte
+# MLOPS: PRIMA INDIANS DIABETES CLASSIFIER
 
-Programa de Pós Graduação em Engenharia Elétrica e de Computação
+UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE
+
+Programa de Pós Graduação em Engenharia Elétrica e de Computação (PPgEEC)
 
 EEC1509 - APRENDIZAGEM DE MÁQUINA - T01 - 2022.1
 
 Nome: Mateus Arnaud Goldbarg (20211027690)
 
-# Fundamentos de Machine learning e Árvore de Decisão
-
-Este projeto tem tem como objetivo a aplicação de técnias de Machine Learning usando Árvore de decisão para classificação usando o dataset [Prima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) e também sua implementação. Todos os passos referentes ao EDA, treinamento e teste de modelo e aquisição de artefatos podem ser encontrados em [Machine Learning Fundamentals and Decision Trees for diabetes dataset](https://github.com/mateusArnaudGoldbarg/diabetes_decision_tree).
-
+Dataset: [Prima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)
 
 # Project Overview
 
@@ -17,11 +16,27 @@ In this project, we will apply the skills acquired in the [Machine Learning Fund
 
 I deployed the model using the [FastAPI](https://fastapi.tiangolo.com/) package and create API tests. The API tests will be incorporated into a CI/CD framework using GitHub Actions. After this, I've build the API locally, test it and then deployed it to [Heroku](https://www.heroku.com/) and test it again once live. [Weights & Biases](https://wandb.ai/) was used to manage and tracking all artifacts created during ETL (Extract, Transform, Load), training and testing model.
 
-
 <center><img width="800" src="images/deploy.png"></center>
 
+## Prima Indians Diabetes Dataset
 
-## :arrow_forward: Environment Setup
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes based on certain diagnostic measurements (features) of females with at least 21 years old.
+
+The datasets consists of the following features:
+
+- Pregnancies: Number of pregnancies;
+- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test;
+- BloodPressure: Diastolic blood pressure (mm Hg);
+- SkinThickness: Triceps skin fold thickness (mm);
+- Insulin: 2-Hour serum insulin (mu U/ml);
+- BMI: Body mass index (weight in kg/(height in m)^2);
+- DiabetesPedigreeFunction: Probability of the pacient have diabetes based on family historic;
+- Age: Age (years);
+- Outcome: Output class variable (0 or 1);
+
+This is an unbalanced dataset, where 268 of 768 are 1 (diabetic), and 500 are 0 (healty).
+
+## Environment Setup
 
 Create a conda environment with ``environment.yml``:
 
@@ -47,7 +62,9 @@ To activate the environment, use
 conda activate myenv
 ```
 
-## :twisted_rightwards_arrows: API Deployment with FastAPI
+## API Deployment with FastAPI
+
+---STOPED HERE!!!---
 
 [FastAPI](https://fastapi.tiangolo.com/) is a modern API framework that allows you to write code quickly without sacrificing flexibility or extensibility. FastAPI will be used in this project in order to conclude the CI/CD stages. After we build our API locally and test it, we will deploy it to [Heroku](https://www.heroku.com/) and test it again once live.
 
