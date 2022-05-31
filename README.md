@@ -46,7 +46,7 @@ All the workflow used to build the prediction model followed the good practices 
 
 All deploying process is described in the image bellow:
 
-<center><img width="800" src="images/deploy.png"></center>
+<center><img width="800" src="images/deploy_w.png"></center>
 
 ### API Deployment with FastAPI
 
