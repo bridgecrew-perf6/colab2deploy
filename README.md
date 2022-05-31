@@ -1,10 +1,14 @@
 Universidade Federal do Rio Grande do Norte
+
 Programa de Pós Graduação em Engenharia Elétrica e de Computação
+
 EEC1509 - APRENDIZAGEM DE MÁQUINA - T01 - 2022.1
 
-Nome: Mateus Arnaud Goldbarg
+Nome: Mateus Arnaud Goldbarg (20211027690)
 
 # Fundamentos de Machine learning e Árvore de Decisão
+
+Este projeto tem tem como objetivo a aplicação de técnias de Machine Learning usando Árvore de decisão para classificação usando o dataset [Prima Indians Diabetes](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) e também sua implementação. Todos os passos referentes ao EDA, treinamento e teste de modelo e aquisição de artefatos podem ser encontrados em [Machine Learning Fundamentals and Decision Trees for diabetes dataset](https://github.com/mateusArnaudGoldbarg/diabetes_decision_tree).
 
 
 # Project Overview
