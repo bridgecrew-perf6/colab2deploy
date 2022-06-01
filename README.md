@@ -48,10 +48,9 @@ All deploying process is described in the image bellow:
 
 <center><img width="800" src="images/deploy_w.png"></center>
 
-### API Deployment with FastAPI
+### Tools used for deployment
 
-
-- [FastAPI](https://fastapi.tiangolo.com/)  is a modern API framework. It was used in this project in order to conclude the CI/CD stages. After we build our API locally and test it;
+- [FastAPI](https://fastapi.tiangolo.com/)  as web framework;
 - It was created and implemented a RESTful API using FastAPI with a Pydantic body with hints of each column, a GET method on the root giving a welcome message, a POST method to proceed to model inference and some unit tests of the API (Diabetic or Healthy);
 - The trained model and the target encoder was stored in [Wandb](https://wandb.ai/);
 - It was used [GitHub Actions](https://github.com/features/actions) to use the practices of Continuous Integration and Continuous Delivery (CI/CD);
