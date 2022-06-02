@@ -60,6 +60,7 @@ All deploying process is described in the image bellow:
 ### Heroku's delivered API: https://prima-indians-app.herokuapp.com/docs
 
 # Medium Article:
+- https://medium.com/@mattheuwsz.arnaud/mlops-building-and-deploying-a-decision-tree-classifier-a9e501145d94
 
 # References:
 - https://github.com/ivanovitchm/colab2mlops;
